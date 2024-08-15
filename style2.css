@@ -575,9 +575,10 @@ Testimonial click can work properly like other click srvice ya contact*/
     box-shadow: 0 0 25px var(--main-color);
 }
 .wrapper{
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3,1fr);
     gap: 3rem;
+    
 }
 .testimonila-item{
     min-height: 550px;
@@ -596,6 +597,7 @@ Testimonial click can work properly like other click srvice ya contact*/
     gap: 1.5rem;
     color: white;
     transition: 0.4s ease-in-out;
+    margin-bottom: 20px;
 }
 .testimonila-item:hover{
     border: 3px solid var(--main-color);
@@ -611,6 +613,232 @@ Testimonial click can work properly like other click srvice ya contact*/
 #star{
     color: gold;
     font-size: 2rem;
+}
+
+/* Smaple Works */
+.youtube{
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainbox{
+    background-color: var(--second-bg-color);
+    height: 598px;
+    width: 942px;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    transition: 0.4s ease-in-out;
+}
+
+.secbox3{
+    background-color: var(--bg-color);
+    height: 259px;
+    width: 440px;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    z-index: 1;
+    display: grid;
+    margin-left: 1.2rem;
+    margin-top: 3rem;
+    transition: 0.4s ease-in-out;
+}
+.secbox3:hover{
+    border: 3px solid var(--main-color);
+    transform: translateY(-10px)scale(1.03);
+    box-shadow: 0 0 50px var(--main-color);
+}
+
+.secbox4{
+    background-color: var(--bg-color);
+    height: 259px;
+    width: 440px;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    z-index: 1;
+    display: grid;
+    margin-left: 1.2rem;
+    margin-bottom: 2rem;
+    transition: 0.4s ease-in-out;
+}
+.secbox4:hover{
+    border: 3px solid var(--main-color);
+    transform: translateY(-10px)scale(1.03);
+    box-shadow: 0 0 50px var(--main-color);
+}
+
+.secbox1{
+    background-color: var(--bg-color);
+    height: 237px;
+    width: 440px;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    z-index: 1;
+    display: grid;
+    margin-left: 2rem;
+    margin-top: 8.3rem;
+    transition: 0.4s ease-in-out;
+}
+.secbox1:hover{
+    border: 3px solid var(--main-color);
+    transform: translateY(-10px)scale(1.03);
+    box-shadow: 0 0 50px var(--main-color);
+}
+
+.secbox2{
+    background-color: var(--bg-color);
+    height: 237px;
+    width: 440px;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    z-index: 1;
+    display: grid;
+    margin-left: 2rem;
+    margin-top: 2.3rem;
+    transition: 0.4s ease-in-out;
+}
+
+.secbox2:hover{
+    border: 3px solid var(--main-color);
+    transform: translateY(-10px)scale(1.03);
+    box-shadow: 0 0 50px var(--main-color);
+}
+
+.reel{
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reelboxs{
+    background-color: var(--second-bg-color);
+    height: 598px;
+    width: 942px;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    display: flex;
+    transition: 0.4s ease-in-out;
+}
+
+.relbox{
+    background-color: var(--bg-color);
+    border: 3px solid transparent;
+    border-radius: 15px;
+    height: 523px;
+    width: 268px;
+    margin: 3rem;
+    transition: 0.4s ease-in-out;
+}
+.relbox:hover{
+    border: 3px solid var(--main-color);
+    transform: translateY(-10px)scale(1.03);
+    box-shadow: 0 0 50px var(--main-color);
+}
+
+.post{
+    background-color: var(--second-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.postboxs{
+    background-color: var(--bg-color);
+    height: 700px;
+    width: 1050px;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.potbox{
+    background-color: var(--second-bg-color);
+    height: 296px;
+    width: 322px;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    z-index: 1;
+    display: grid;
+    margin-left: 1.2rem;
+    margin-top: 3rem;
+    transition: 0.4s ease-in-out;
+}
+
+.potbox:hover{
+    border: 3px solid var(--main-color);
+    transform: translateY(-10px)scale(1.03);
+    box-shadow: 0 0 50px var(--main-color);
+}
+.documentery {
+    background-color: var(--bg-color);
+    overflow: hidden; /* Ensure elements moving out of the screen are hidden */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.docuboxs {
+    background-color: var(--second-bg-color);
+    height: 600px;
+    width: 980px;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative; /* To position the boxes absolutely inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.docbox {
+    background-color: var(--bg-color);
+    height: 445px;
+    width: 864px;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    position: absolute; /* Allow for movement out of the container */
+    top: 7rem;
+    transition: 0.4s ease-in-out;
+    animation: slideLeftToRight 6s infinite; /* Apply animation */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hover effect */
+.docbox:hover {
+    border: 3px solid var(--main-color);
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 0 50px var(--main-color);
+}
+
+/* Keyframes for sliding animation */
+@keyframes slideLeftToRight {
+    0% {
+        left: 0%; /* First box starts in view */
+    }
+    25% {
+        left: -100%; /* First box slides out to the left */
+    }
+    50% {
+        left: 100%; /* Second box starts outside to the right */
+    }
+    75% {
+        left: 0%; /* Second box slides into view */
+    }
+    100% {
+        left: 0%; /* Second box stays in view */
+    }
+}
+
+/* Adjust the second box's starting position */
+.docbox:nth-child(2) {
+    animation-delay: 3s; /* Start the second box's animation after the first */
 }
 
 /* Contact Us page YT time : 37:01  */
@@ -709,6 +937,8 @@ Testimonial click can work properly like other click srvice ya contact*/
     color: white;
 }
 
+
+
 /* Responsive Size */
 @media(max-width:1285px){
     html{
@@ -719,6 +949,36 @@ Testimonial click can work properly like other click srvice ya contact*/
         padding-bottom: 7rem;
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
+    }
+    .mainbox {
+        width: 80%;
+        height: auto; /* Adjust height to fit content */
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .secbox1, .secbox2, .secbox3, .secbox4 {
+        width: 100%;
+        height: auto; /* Adjust height to fit content */
+        margin: 1rem 0;
+    }
+
+    .secbox1, .secbox3 {
+        margin-top: 2rem;
+    }
+    .reelboxs {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .relbox {
+        margin: 2.5rem;
+    }
+    .postboxs {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        height: auto;
+        padding: 1.5rem;
     }
 }
 @media(max-width:991px){
@@ -785,6 +1045,32 @@ Testimonial click can work properly like other click srvice ya contact*/
         margin-left: 20px;
         margin-right: 20px;
     }
+    .mainbox {
+        width: 90%;
+    }
+
+    .secbox1, .secbox2, .secbox3, .secbox4 {
+        width: 95%;
+    }
+
+    .secbox1, .secbox3 {
+        margin-top: 1.5rem;
+    }
+        .reelboxs {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .relbox {
+        margin: 2rem;
+    }
+    .postboxs {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        height: auto;
+    }
 }
 @media(max-width:895px){
     .navbar {
@@ -794,7 +1080,7 @@ Testimonial click can work properly like other click srvice ya contact*/
         display: block;
     }
     .wrapper{
-        display: block;
+        display: ruby;
     }
     .navbar{
         position: relative;
@@ -873,11 +1159,51 @@ Testimonial click can work properly like other click srvice ya contact*/
         margin-left: 15px;
         margin-right: 15px;
     }
+    .mainbox {
+        width: 100%;
+        height: auto;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .secbox1, .secbox2, .secbox3, .secbox4 {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .postboxs {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .potbox {
+        margin: 1rem 0;
+    }
+    .docuboxs {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        padding: 1rem;
+        position: relative; /* Maintain the absolute positioning inside */
+    }
+
+    .docbox {
+        height: 300px;
+        width: 90%; /* Adjust width to be responsive */
+        position: relative; /* Change to relative for stacking */
+        margin: 1rem auto; /* Center the boxes */
+        animation: none; /* Disable animation on small screens for simplicity */
+    }
 }
 /* Mobile view */
 @media (max-width: 768px) {
     .wrapper{
-        display: block;
+        display: ruby;
     }
     .navbar {
         display: none;
@@ -916,5 +1242,21 @@ Testimonial click can work properly like other click srvice ya contact*/
         min-height: 100%;
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .mainbox {
+        width: 100%;
+        height: auto;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .secbox1, .secbox2, .secbox3, .secbox4 {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+    .docbox {
+        height: 250px;
+        width: 100%; /* Full width for very small screens */
+        margin: 1rem 0;
     }
 }
